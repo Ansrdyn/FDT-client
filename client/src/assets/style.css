@@ -1,0 +1,76 @@
+.nama {
+  transform: translateY(-3.5rem) translateX(6rem);
+  font-size: smaller;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.title {
+  margin: 0;
+}
+.nama-review {
+  transform: translateY(6.6rem) translateX(7rem);
+  font-size: smaller;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name-review {
+  font-weight: 700;
+}
+
+.title-review {
+  margin: 0;
+  transform:translateY(-1rem) translateX(-3rem);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 13rem;
+  height: 28rem;
+  /* padding: 1.5em 0.5em; */
+}
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-box {
+  transform: translateY(2rem);
+  border-radius: 10px;
+  background-color: yellow;
+  width: 15rem;
+  height: 150rem;
+  position: absolute;
+  border: 1cap;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+.card-desc{
+  font-weight: 00;
+}
+.card-text {
+  font-weight: 700;
+  margin: 10px;
+  font-size: 1.2em;
+}
+.card-text-review {
+  font-weight: 500;
+  margin: -7px;
+  font-size: 1em;
+}
+.card-body {
+  border: none;
+}
