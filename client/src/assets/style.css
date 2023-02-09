@@ -15,7 +15,7 @@
   margin: 0;
 }
 .nama-review {
-  transform: translateY(6.6rem) translateX(7rem);
+  transform: translateY(6.6rem) translateX(6rem);
   font-size: smaller;
   z-index: 10;
   display: flex;
@@ -29,7 +29,7 @@
 
 .title-review {
   margin: 0;
-  transform:translateY(-1rem) translateX(-3rem);
+  transform:translateY(-1rem) translateX(-4.5rem);
 }
 
 .card {

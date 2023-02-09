@@ -35,7 +35,7 @@ export default function ReviewComponent() {
         </div>
       </div>
       {/* card  */}
-      <div className="row">
+      <div className="row no-gutters">
         <div className="col-md-10">
           <div className="row">
             {!loading
@@ -109,7 +109,7 @@ export default function ReviewComponent() {
                                 className="rounded-circle"
                                 alt="prfile"
                                 width="75px"
-                                style={{ transform: "translateX(6rem)" }}
+                                style={{ transform: "translateX(5rem)" }}
                               />
                             </div>
                             <div className="nama-review">
